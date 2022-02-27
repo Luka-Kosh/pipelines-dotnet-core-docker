@@ -8,7 +8,7 @@ variables:
     # Container registry service connection established during pipeline creation
     dockerRegistryServiceConnection: '{{ containerRegistryConnection.Id }}'
     imageRepository: 'javascriptdocker'
-    containerRegistry: 'sampleappcontinerregistry.azurecr.io'
+    containerRegistry: 'myfristcontainer.azurecr.io'
     dockerfilePath: '$(Build.SourcesDirectory)/app/Dockerfile'
     tag: '$(Build.BuildId)'
 
